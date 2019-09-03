@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Todos from './components/Todos';
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
   state = {
     todos: [
       {
@@ -11,14 +11,14 @@ class App extends Component {
       completed: false
       },
       {
-        id: 2,
-        title: 'Dinner with wife',
-        completed: false
-        },
+      id: 2,
+      title: 'Dinner with wife',
+      completed: false
+      },
       {
-        id: 3,
-        title: 'Meeting with boss',
-        completed: false
+      id: 3,
+      title: 'Meeting with boss',
+      completed: false
       },
     ]
   }

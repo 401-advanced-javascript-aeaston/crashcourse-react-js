@@ -13,7 +13,7 @@ export class TodoItem extends Component {
 
 // prop type
 TodoItem.propTypes = {
-  todos: PropTypes.object.isRequired
+  todo: PropTypes.object.isRequired
 }
 
 export default TodoItem
